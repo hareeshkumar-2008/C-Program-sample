@@ -1,0 +1,150 @@
+//program to add two numbers 
+
+#include <stdio.h>
+void main()
+{
+  
+   int a,b,sum;
+   
+   printf("Enter two numbers:");
+   scanf("%d%d",&a,&b);
+   
+   sum=a+b;
+   
+   printf("sum=%d",sum);
+   
+}
+
+output
+    Enter two numbers 2 4
+    sum=6
+_________________________________________________________________________________________________________________________________________________________________________________________
+find Modification
+
+//program for subract two numbers
+
+#include <stdio.h>
+void main()
+{
+  
+   int a,b,diff;
+   
+   printf("Enter two numbers:");
+   scanf("%d%d",&a,&b);
+   
+   diff=a-b;
+   
+   printf("diff=%d",diff);
+   
+}
+
+output
+   Enter two numbers 5 10 
+   difference=-5
+____________________________________________________________________________________________________________________________________________________________________________________________
+
+to find product
+
+#include <stdio.h>
+void main()
+{
+  
+   int a,b,product;
+   
+   printf("Enter two numbers:");
+   scanf("%d%d",&a,&b);
+   
+   product=a*b;
+   
+   printf("product=%d",product);
+   
+}
+
+output
+   Enter two numbers 2 5
+   product=10
+___________________________________________________________________________________________________________________________________________________________________________________________________
+
+to find quotient
+
+#include <stdio.h>
+void main()
+{
+  
+   int a,b,quotient;
+   
+   printf("Enter two numbers:");
+   scanf("%d%d",&a,&b);
+   
+   quotient=a*b;
+   
+   printf("quotient=%d",quotient);
+   
+}
+
+output 
+   Enter two numbers 10 2
+   quotient=5
+____________________________________________________________________________________________________________________________________________________________________________________________________
+
+program to add three numbers
+
+   #include <stdio.h>
+   void main()
+{
+  
+   int a,b,c,sum;
+   
+   printf("Enter three numbers:");
+   scanf("%d%d%d",&a,&b,&c);
+   
+   sum=a+b+c;
+   
+   printf("sum=%d",sum);
+   
+}
+
+output
+  Enter three numbers 4 2 4
+  sum=10
+
+____________________________________________________________________________________________________________________________________________________________________________________________
+ 
+//Program to find average
+ 
+  #include <stdio.h>
+   void main()
+{
+  
+   int a,b,c,average;
+   
+   printf("Enter three numbers:");
+   scanf("%d%d%d",&a,&b,&c);
+   
+   average=a+b+c/3;
+   
+   printf("average=%d",average);
+   
+}
+
+output
+   Enter three numbers 5 5 5
+   average=5
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
