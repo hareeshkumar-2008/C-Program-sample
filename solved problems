@@ -1,0 +1,118 @@
+multiple and divide two numbers in the form of (a*b=ans a/b=ans)
+
+#include <stdio.h>
+
+void main()
+{
+    int a,b,product,diff;
+    
+    printf("Enter two numbers");
+    scanf("%d%d",&a,&b);
+    
+    product=a*b;
+    diff=a/b;
+    
+    printf("%d*%d=%d %d/%d=%d",a,b,product,a,b,diff);
+    
+}
+____________________________________________________________________________________________________________________________________________________
+
+square and cube of a given number
+
+#include <stdio.h>
+
+void main()
+{
+    int a,sqr,cube;
+    
+    printf("Given number");
+    scanf("%d",&a);
+    
+    sqr=a*a;
+    cube=a*a*a;
+    
+    printf("%d*%d=%d %d*%d*%d=%d",a,a,sqr,a,a,a,cube);
+    
+}
+
+_________________________________________________________________________________________________________________________________________________________________________________
+
+
+  # include <stdio.h>
+# include<math.h>
+int main()
+{
+
+    int num,sqr,sqrt1;
+
+    printf("Enter the number to perform the square root :");
+    scanf("%d",&num);
+    sqrt1=sqrt(num);
+    printf("The Square root of the given number %d is %d",num,sqrt1);
+    return 8;
+
+}
+
+____________________________________________________________________________________________________________________________________________________________________________________
+
+ # include <stdio.h>
+# include<math.h>
+void main()
+{
+  int sqr,area,peri;
+  
+  printf("value of sqr");
+  scanf("%d",&sqr);
+ 
+  area=length*breadth;
+  peri=2*(length+breadth);
+  
+  printf("%d",&area,&peri);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
