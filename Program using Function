@@ -1,0 +1,311 @@
+program using function
+
+#include <stdio.h>
+
+void greet();
+  
+  void main()
+  
+{
+   greet();
+  
+}
+
+void greet()
+{
+    printf("Welcome to function training");
+
+}
+
+________________________________________________________________________________________________________________________________________________________________________
+
+program for adding two no using function
+
+#include <stdio.h>
+
+void add();
+
+void add()
+{
+    int a, b;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    int c = a + b;
+
+    printf("Answer = %d", c);
+}
+
+int main()
+{
+    add();
+    return 0;
+}
+
+_____________________________________________________________________________________________________________________________________________________________________________________
+
+program using function with arguement
+
+#include <stdio.h>
+
+ int add (int a,int b);
+
+void main()
+{
+    
+    int a,b;
+    printf("enter two numbers");
+    scanf("%d %d",&a,&b);
+    
+    printf("answer %d",add(a,b));
+    
+}
+ int add(int a,int b)
+ 
+ {
+     return a+b;
+    
+ }
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+
+Without Arguments, Without Return Value
+
+#include <stdio.h>
+
+void add();
+
+int main()
+{
+    add();
+    return 0;
+}
+
+void add()
+{
+    int a, b;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    printf("Answer = %d", a + b);
+}
+
+______________________________________________________________________________________________________________________________________________________
+
+
+Without Arguments, With Return Value
+
+
+#include <stdio.h>
+
+int add();
+
+int main()
+{
+    int sum;
+
+    sum = add();
+
+    printf("Answer = %d", sum);
+
+    return 0;
+}
+
+int add()
+{
+    int a, b;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    return a + b;
+}
+
+________________________________________________________________________________________________________________________________________________________________________
+
+#include <stdio.h>
+
+int add(int num1 ,int num2);
+void main ()
+{
+    int n1,n2;
+
+    printf("Enter the first number :");
+    scanf("%d",&n1);
+    printf("Enter the second number :");
+    scanf("%d",&n2);
+
+    printf("The Sum of the two number is %d", add(n1,n2));
+
+
+}
+int add (int num1,int num2)
+{
+    int sum;
+
+    sum = num1+num2;
+    return sum;
+    //printf("The Sum of the two number is %d",sum);
+
+   // sum = num1+num2;
+
+}
+
+void begin()
+{
+    printf("WELCOME TO THE C CALCULATOR \n");
+    printf("\n ENTER THE FOLLOWING OPERATION YOU WANT TO PERFORM\n");
+    printf("\n ADDITION : 1 \n SUBTRACTION : 2 \n MULTIPLICATION : 3 \n DIVISION : 4 \n");
+
+}
+int add (int num1,int num2)
+{
+    int sum;
+
+    sum = num1+num2;
+    return sum;
+}
+int sub (int num1,int num2)
+{
+    int sub;
+
+    sub = num1-num2;
+    return sub;
+}
+int mul (int num1,int num2)
+{
+    int mul;
+
+    mul = num1*num2;
+    return mul;
+}
+int div (int num1,int num2)
+{
+    int div;
+
+    div = num1/num2;
+    return div;
+}
+void main()
+{
+    int n1,n2,n;
+    begin();
+    printf("Enter the number within [1-4]:");
+    scanf("%d",&n);0
+    printf(" Enter the first number :");
+    scanf("%d",&n1);
+    printf("Enter the second number :");
+    scanf("%d",&n2);
+
+
+    for (int i=1; i<5;i++)
+    {
+        if (n == 1)
+        {
+            printf("Sum of the above two numbers is %d", add(n1,n2));
+            break;
+        }
+        else if (n == 2)
+        {
+             printf("Difference of the above two numbers is %d", sub(n1,n2));
+             break;
+        }
+
+        else if (n == 3)
+        {
+             printf("Product  of the above two numbers is %d", mul(n1,n2));
+             break;
+        }
+        else
+        {
+             printf("Quotient of the above two numbers is %d", div(n1,n2));
+             break;
+        }
+    }
+
+
+}
+
+
+output
+
+
+ 
+
+
+
+
+// To find the greastest number
+#include <stdio.h>
+int large(int a,int b,int c){
+    if(a>=b&&a>=c)
+   return a;
+    else if(b>=a&&b>=c)
+    return b;
+    else
+    return c;
+}
+void main() {
+    int a,b,c;
+    printf("Enter any three numbers:");
+    scanf("%d%d%d",&a,&b,&c);
+    
+    printf("The largest of three numbers is:%d",large(a,b,c));
+    
+}
+______________________________________________________________________________________
+// To find three number equal or not
+#include <stdio.h>
+
+int equal(int a,int b,int c){
+    if(a==b&&a==c)
+   return 1;
+    else 
+    return 0;
+}
+int main() {
+    int a,b,c;
+    printf("Enter any three numbers:");
+    scanf("%d%d%d%",&a,&b,&c);
+    
+    if(equal(a,b,c)==1)
+    printf("Given numbers are equal");
+    else
+    
+     printf("Given numbers are not equal");
+    
+}  
+______________________________________________________________________________________________
+// To find the eligible to vote 
+#include<stdio.h>
+int elgi(int age){
+     if(age>=18){
+      return 1;
+   }
+   else{
+      return 0;
+   }
+
+}
+int main() {
+   int age;
+   printf("Enter your age:");
+   scanf("%d",&age);
+  if(elgi(age)==1)
+   printf("You are eligible to vote");
+   else
+   printf("You are not eligible to vote");
+  
+}
+_______________________________________
+
+
+
+
+
+
+
+
+
